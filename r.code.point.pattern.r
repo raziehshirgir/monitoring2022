@@ -1,7 +1,7 @@
 # Point pattern analysis
 
 # If you did not install the spatstat package, do it by:
-# install.packages("spatstat")
+install.packages("spatstat")
 library(spatstat)
 
 ######### IMPORT DATA FROM AN EXTERNAL SOURCE
@@ -12,12 +12,13 @@ library(spatstat)
 # setwd("C:/lab/")
 
 # setwd Mac
-# setwd("/Users/yourname/lab/")
+# setwd("/Users/alireza/lab/")
 #install.packeages ("spatstat")
 # Linux
 setwd("~/lab/")
 
-
+setwd("/Users/alireza/Desktop/lab/")
+> 
 # Now, let's see the density of the covid data!
 # let's make a planar point pattern in spatstat
 attach(covid)
@@ -104,7 +105,7 @@ plot(coastlines, add=T)
 # setwd("/Users/yourname/lab/")
 
 # Linux
-setwd("~/lab/")
+#setwd("~/lab/")
 
 leo <- read.table("dati_zabotti.csv", header=T, sep=",")
 
